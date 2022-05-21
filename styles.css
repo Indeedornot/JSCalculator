@@ -1,0 +1,53 @@
+﻿.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em 0.5em;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "Clear Equation Equation Equation"
+    "Seven Eight Nine Divide"
+    "Four Five Six Multiply"
+    "One Two Three Minus"
+    "Zero Dot Equals Plus";
+}
+
+.container div{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.Equation {grid-area: Equation;}
+
+.Seven { grid-area: Seven; }
+
+.Eight { grid-area: Eight; }
+
+.Nine { grid-area: Nine; }
+
+.Four { grid-area: Four; }
+
+.Five { grid-area: Five; }
+
+.Six { grid-area: Six; }
+
+.One { grid-area: One; }
+
+.Two { grid-area: Two; }
+
+.Three { grid-area: Three; }
+
+.Zero { grid-area: Zero; }
+
+.Dot { grid-area: Dot; }
+
+.Equals { grid-area: Equals; }
+
+.Plus { grid-area: Plus; }
+
+.Minus { grid-area: Minus; }
+
+.Multiply { grid-area: Multiply; }
+
+.Divide { grid-area: Divide; }
+
+.Clear { grid-area: Clear;}
